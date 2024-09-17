@@ -1,0 +1,56 @@
+/* Inside css/style.css */
+
+/* General Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styling */
+h1 {
+  text-align: center;
+  color: #4a90e2;
+  margin: 20px 0;
+}
+
+/* Table Styling */
+table {
+  width: 90%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Table Header Styling */
+th {
+  background-color: #4a90e2;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Table Cell Styling */
+td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+/* Alternating Row Colors */
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Image Styling */
+img {
+  width: 150px; /* Adjust size as needed */
+  height: auto; /* Maintain aspect ratio */
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  padding: 5px;
+}
+
